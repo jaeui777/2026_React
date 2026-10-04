@@ -99,7 +99,25 @@ const create = createRoot( root );
 // );
 
 // day07
-import App from "./example/day07/App";
+// import App from "./example/day07/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//         {/* 최초 렌더링 컴포넌트 */}
+//         <App />
+//     </BrowserRouter>
+// );
+
+// import App from "./example/day10/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//         {/* 최초 렌더링 컴포넌트 */}
+//         <App />
+//     </BrowserRouter>
+// );
+
+import App from "./example/day12/App";
 import { BrowserRouter } from "react-router-dom";
 create.render(
     <BrowserRouter>
